@@ -46,14 +46,13 @@
 			```
 - Looping: perform an operation some number of times
 
-            ```python
-            num = 1 # num is a variable containing the number 1
-            while (num <= 10) # while num is less than or equal to ten
-            	print(num) # print num to the screen
-            	num = num + 1 # assign the variable num to its previous value plus one
-            ```
-            
-            ```python
-            for i in range(1, 11) # i is some number in the range 1 - 11
-            	print(i) # print i to screen
-            ```
+```python
+num = 1 # num is a variable containing the number 1
+while (num <= 10) # while num is less than or equal to ten
+	print(num) # print num to the screen
+	num = num + 1 # assign the variable num to its previous value plus one
+```  
+```python
+for i in range(1, 11) # i is some number in the range 1 - 11
+	print(i) # print i to screen
+```
