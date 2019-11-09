@@ -13,7 +13,7 @@
 **Python programming basics**
  - Variables: a named reference to a value. any variable can store any value, and be reassigned to any other variable
 	- `one = 1`
-		- `<variable name> <assignment> <value>`
+		- variables on the left of the value they are receiving, in this form: `<variable name> <assignment> <value>`
 		- to assign value, use '='
 	- `result = true`
 		- true is a boolean, a true or false value
@@ -46,13 +46,18 @@
 			```
 - Looping: perform an operation some number of times
 
-```python
-num = 1 # num is a variable containing the number 1
-while (num <= 10) # while num is less than or equal to ten
-	print(num) # print num to the screen
-	num = num + 1 # assign the variable num to its previous value plus one
-```  
-```python
-for i in range(1, 11) # i is some number in the range 1 - 11
-	print(i) # print i to screen
-```
+	```python
+	num = 1 # num is a variable containing the number 1
+	while (num <= 10) # while num is less than or equal to ten, run the code indented under this statement
+		print(num) # print num to the screen
+		num = num + 1 # assign the variable num to its previous value plus one
+	```  
+	```python
+	for i in range(1, 11) # i is some number in the range 1 - 11
+		print(i) # print i to screen
+	```
+- Executing python scripts(files):
+	- open up Sublime Text, make a new file, and save it as `<something>.py`
+	- write your code, and save your changes
+	- open the command prompt, and navigate to the directory your .py file was saved in
+	- enter `python <yourfile>.py` into the command prompt, then press enter
