@@ -5,6 +5,16 @@
 4.  install sublime text from https://www.sublimetext.com/
 5.  Find sublime install folder, and add to path
 
+**Command Prompt Basics**
+1. To open a command prompt, type Win-R, and enter "cmd" into the Run Dialog
+2. This will open a command prompt in your home directory, `C:\Users\Hannah`, and from here you can navigate the file structure
+3. you need to be in the same directory(file) as your python file to execute it. (all commands are followed by enter)
+	- see files in current directory: `dir`
+	- change to a new directory from your directory: `cd <directory-name>`
+	- move one directory up from where you are: `cd ..`
+	- see what directory you are currently in: `cd`
+	- open a new or existing file in sublime: `subl <filename>.py`
+
 **To open python REPL**
 1. Open a command prompt: Start menu - cmd.exe
 2. Type python, then press enter. You are now in the REPL (Read-Evaluate-Print Loop). type in any valid python expression and the interpreter will return the value to you
