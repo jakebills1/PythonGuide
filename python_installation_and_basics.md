@@ -74,7 +74,7 @@
 	- calling (executing) functions:
 	
 	```python
-	greet("Hannah") # "Hello, Hannah!"	
+	greet("Hannah") # "Hello, Hannah!"
 	```
 - Executing python scripts(files):
 	- open up Sublime Text, make a new file, and save it as `<something>.py`
