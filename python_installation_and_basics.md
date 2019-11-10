@@ -66,6 +66,16 @@
 	for i in range(1, 11) # i is some number in the range 1 - 11
 		print(i) # print i to screen
 	```
+- Functions: way of storing functionality
+	```python
+	def greet(name)
+		print("Hello, " + name + "!")
+	```
+	- calling (executing) functions:
+	
+	```python
+	greet("Hannah") # "Hello, Hannah!"	
+	```
 - Executing python scripts(files):
 	- open up Sublime Text, make a new file, and save it as `<something>.py`
 	- write your code, and save your changes
